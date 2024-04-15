@@ -1,0 +1,93 @@
+{
+  "classification": {
+    "showBottomLeft": false,
+    "showBottomRight": false,
+    "showTopLeft": false,
+    "showTopRight": false,
+    "title": "UNCLASSIFIED//FOUO"
+  },
+  "contours": [],
+  "description": "",
+  "filters": [],
+  "grids": [
+    {
+      "axes": [
+        {
+          "enableBox": true,
+          "domainMax": 1,
+          "domainMin": 0,
+          "enableGrid": true,
+          "label": "X Label",
+          "max": 5.0,
+          "min": 0.0,
+          "name": "x",
+          "scaleFactor": "None",
+          "tickMode": "auto",
+          "tickText": ["One", "Three", "Five", "Seven", "Nine", "Eleven"],
+          "tickVals": [1, 3, 5, 7, 9, 11]
+        },
+        {
+          "enableBox": true,
+          "domainMax": 1,
+          "domainMin": 0,
+          "enableGrid": true,
+          "label": "Y Label",
+          "max": 150.0,
+          "min": 0.0,
+          "name": "y",
+          "scaleFactor": "None",
+          "tickMode": "auto",
+          "tickText": ["One", "Three", "Five", "Seven", "Nine", "Eleven"],
+          "tickVals": [1, 3, 5, 7, 9, 11]
+        }
+      ],
+      "axisType": "Auto",
+      "showColorBar": true,
+      "colorBarTitle": "Color Bar",
+      "colorScale": "Parula",
+      "plotType": "2d",
+      "legendGroupTitle": null,
+      "overwriteDomain": false,
+      "showLegend": false,
+      "subplot": 1
+    }
+  ],
+  "layout": {
+    "height": 500,
+    "legendPosition": "Outside",
+    "legendTitle": "Legend",
+    "theme": "simple_white",
+    "width": 650,
+    "showInfo": true,
+    "verticalSpacing": 0.08,
+    "sharedYAxes": false,
+    "sharedXAxes": false
+  },
+  "name": "Flyout",
+  "numPoints": 0,
+  "percentData": 0.0,
+  "temporary": false,
+  "title": "Flyout",
+  "variables": [
+    {
+      "colorVariable": "tgt_pos_ned_m__2",
+      "xVariable": "tgt_pos_ned_m__1",
+      "yVariable": "tgt_alt_m",
+      "zVariable": "",
+      "markerSize": 5,
+      "markerType": "Circle",
+      "mode": "markers",
+      "lineType": "solid",
+      "row": null,
+      "column": null,
+      "markerColor": null,
+      "lineColor": null,
+      "lineWidth": 2,
+      "lineShape": null,
+      "connectgaps": true,
+      "traceName": null,
+      "legendGroupTitle": null,
+      "subplot": 1
+    }
+  ]
+}

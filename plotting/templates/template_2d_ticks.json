@@ -1,0 +1,113 @@
+{
+  "classification": {
+    "showBottomLeft": false,
+    "showBottomRight": false,
+    "showTopLeft": false,
+    "showTopRight": false,
+    "title": "UNCLASSIFIED//FOUO"
+  },
+  "contours": [],
+  "description": "",
+  "filters": [],
+  "grids": [
+    {
+      "axes": [
+        {
+          "enableBox": true,
+          "domainMax": 1,
+          "domainMin": 0,
+          "enableGrid": true,
+          "label": "Time (s)",
+          "max": 5.0,
+          "min": 0.0,
+          "name": "x",
+          "scaleFactor": "None",
+          "tickMode": "array",
+          "tickText": ["One", "Three", "Five"],
+          "tickVals": [1, 3, 5]
+        },
+        {
+          "enableBox": true,
+          "domainMax": 1,
+          "domainMin": 0,
+          "enableGrid": true,
+          "label": "Position",
+          "max": 150.0,
+          "min": 0.0,
+          "name": "y",
+          "scaleFactor": "None",
+          "tickMode": "auto",
+          "tickText": ["One", "Three", "Five", "Seven", "Nine", "Eleven"],
+          "tickVals": [1, 3, 5, 7, 9, 11]
+        }
+      ],
+      "axisType": "Auto",
+      "showColorBar": true,
+      "colorBarTitle": "Color Bar",
+      "colorScale": "Parula",
+      "plotType": "2d",
+      "legendGroupTitle": null,
+      "overwriteDomain": false,
+      "showLegend": true,
+      "subplot": 1
+    }
+  ],
+  "layout": {
+    "height": 500,
+    "legendPosition": "Outside",
+    "legendTitle": "Legend",
+    "theme": "simple_white",
+    "width": 650,
+    "showInfo": true,
+    "verticalSpacing": 0.08,
+    "sharedYAxes": false,
+    "sharedXAxes": false
+  },
+  "name": "Target Positions",
+  "numPoints": 0,
+  "percentData": 0.0,
+  "temporary": false,
+  "title": "Target Positions",
+  "variables": [
+    {
+      "colorVariable": "",
+      "xVariable": "time_s",
+      "yVariable": "tgt_pos_ned_m__1",
+      "zVariable": "",
+      "markerSize": 5,
+      "markerType": "Circle",
+      "mode": "lines",
+      "lineType": "solid",
+      "row": null,
+      "column": null,
+      "markerColor": null,
+      "lineColor": null,
+      "lineWidth": 2,
+      "lineShape": null,
+      "connectgaps": true,
+      "traceName": null,
+      "legendGroupTitle": null,
+      "subplot": 1
+    },
+    {
+      "colorVariable": "",
+      "xVariable": "time_s",
+      "yVariable": "tgt_pos_ned_m__2",
+      "zVariable": "",
+      "markerSize": 5,
+      "markerType": "Circle",
+      "mode": "lines",
+      "lineType": "dash",
+      "row": null,
+      "column": null,
+      "markerColor": null,
+      "lineColor": null,
+      "lineWidth": 2,
+      "lineShape": null,
+      "connectgaps": true,
+      "traceName": null,
+      "legendGroupTitle": null,
+      "subplot": 1
+    }
+  ]
+}
